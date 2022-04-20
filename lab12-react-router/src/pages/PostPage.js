@@ -4,7 +4,7 @@ import axios from 'axios'
 
 export default function PostPage() {
 
-    const [currentPost, setCurrentPost] = useState({});
+    const [currentPost, setCurrentPost] = useState({userId:0});
     const [currentPostID, setCurrentPostID] = useState(0)
     const params = useParams();
     useEffect(()=>{
